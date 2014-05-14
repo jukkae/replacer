@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin
+	id="replacer/Replacer"
+	name="Replacer"
+	description="A context-aware search and replacer"
+	version="0.0.1"
+	vendor="Jukka Eerikainen"
+	class="replacer.Replacer"
+	classLoaderType="preferReferencedResources">
+	<runtime>
+		<library name="lib/replacer.jar"/>
+	</runtime>
+	<extension
+		type="documentProcessor"
+		class="replacer.ReplacerExtension"/>
+</plugin>
